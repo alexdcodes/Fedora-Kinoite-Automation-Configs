@@ -1,3 +1,4 @@
 # Toolbox.sh
 
-  For automating toolbox commands , enter, stop , remove containers, remove images 
+  automating toolbox commands , enter, stop , remove containers, remove images, refresh for updates
+  
