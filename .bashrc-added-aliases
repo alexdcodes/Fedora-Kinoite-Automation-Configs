@@ -1,0 +1,20 @@
+#add to the top of your .bashrc file
+# bash aliases n changes 
+#
+#
+# Toolbox Menu Script
+alias te="~/Scripts/toolbox.sh" # Added Toolbox Menu Script feel free to put in any directory 
+alias tl="toolbox --list"
+alias t="toolbox"
+alias d="cd ~/Downloads"
+alias s="cd ~/Scripts"
+alias p="cd ~/Pictures"
+alias ds="cd ~/Documents"
+alias dev="cd ~/Development"
+alias m="cd ~/Music"
+alias l="ls -la"
+alias c="cd"
+alias pds="podman stats"
+alias pdi="podman images"
+alias vscodium="flatpak run com.vscodium.codium --disable-gpu"
+alias vsstudio="flatpak run com.visualstudio.code --disable-gpu"
