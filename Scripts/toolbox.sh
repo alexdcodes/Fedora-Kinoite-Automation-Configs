@@ -10,7 +10,7 @@
 
  
 clear
-echo "**************************************************"
+echo "***********************************************************"
 cat << "EOF"
                              A   D                                                                           
 ▗▄▄▄▖▄▄▄   ▄▄▄  █ ▗▖    ▄▄▄  ▄   ▄     ▗▖  ▗▖▗▞▀▚▖▄▄▄▄  █  ▐▌
@@ -18,11 +18,11 @@ cat << "EOF"
   █ ▀▄▄▄▀ ▀▄▄▄▀ █ ▐▛▀▚▖▀▄▄▄▀ ▄▀ ▀▄     ▐▌  ▐▌▝▚▄▄▖█   █      
   █             █ ▐▙▄▞▘                ▐▌  ▐▌                
                         Podman/Toolbox                                                      
-        https://github.com/alexdcodes/Fedora-Kinoite-Changes                                                   
-	v.1 (More commands/options coming for v2)     
+https://github.com/alexdcodes/Fedora-Kinoite-Automation-Configs
+			v.1 (More commands/options coming for v2)     
                                                                
 EOF
-echo "***************************************************"
+echo "************************************************************"
 toolbox list
 echo ""
 echo ""
