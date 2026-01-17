@@ -11,5 +11,5 @@ Not really useful for anyone else, but just setting up the OS like i like. and t
 ## Scripts/Toolbox.sh
 located in Scripts folder ```toolbox.sh``` run ```chmod +X toolbox.sh``` to turn it into an executable or runnable bash script. 
 
-Run it by it self or added to ".bashrc" than you can run as a command, in ternimal to save time. such as just typing te 
+Run it by it self or add to ".bashrc" than you can run as a command, in ternimal to save time. such as just typing te 
 
