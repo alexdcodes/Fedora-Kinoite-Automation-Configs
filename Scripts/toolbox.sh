@@ -42,7 +42,7 @@ else
     echo "----------------------------------------------"
     read -p "Enter the toolbox(container) you want to Stop? " container_name
     echo "----------------------------------------------"
-	kdialog --warningcontinuecancel "This is a warning message"
+	kdialog --warningcontinuecancel "You are about to stop an container that might still be busy, continue anyway?"
 	podman stop "$container_name" || echo "Failed to stop (not running or missing), continuing..."
     echo ""
     echo "INFO Listing all stopped containers on the system: "
