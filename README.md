@@ -1,2 +1,13 @@
-# Fedora-Kinoite-Automation-Configs
-Just automating some stuff for my self, such as toolbox, podman etc. (adding my custom aliases to shorten time) 
+# Automating Fedora Kinoite                                                                                                                                                          
+
+personal setting changes to fedora kinoite immutable os to provide some automation for tooling.
+Not really useful for anyone else, but just setting up the OS like i like. and thought i would share since Linux is all about sharing and paying it forward. 
+
+<br>
+/Scripts contains:
+<br>
+<br>
+
+## Scripts/Toolbox.sh
+located in Scripts folder ```toolbox.sh``` needs to be ```chmod +X toolbox.sh``` . Run it by it self or added to .bashrc to run as a command, in ternimal to save time.
+
