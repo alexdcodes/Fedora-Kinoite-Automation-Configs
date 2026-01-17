@@ -39,10 +39,10 @@ if [[ "${reply,,}" =~ ^(enter|e)$ ]]; then
     toolbox enter "$cname"
 else
     toolbox list
+	kdialog --title "Caution" --warningcontinuecancel "You might stop a container in the middle of a critical process,check its not required.'"	
     echo "----------------------------------------------"
     read -p "Enter the toolbox(container) you want to Stop? " container_name
     echo "----------------------------------------------"
-	kdialog --title "Caution" --warningcontinuecancel "About to stop a container that might be running an critical process, stop anyway?"	
 	podman stop "$container_name" || echo "Failed to stop (not running or missing), continuing..."
     echo ""
     echo "INFO Listing all stopped containers on the system: "
