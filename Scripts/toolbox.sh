@@ -27,7 +27,7 @@ echo "************************************************************"
 toolbox list
 echo ""
 echo ""
-echo -n "ALERT! Do you want to 'enter' or 'stop' a container (Enter/Stop)?: "
+echo -n "INFO: Do you want to 'enter' or 'stop' a container (Enter/Stop)?: "
 read reply
 echo ""
 
