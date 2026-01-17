@@ -1,3 +1,4 @@
+#!/bin/bash
 #
 # Simple Instructions: 
 #
@@ -41,6 +42,7 @@ else
     echo "----------------------------------------------"
     read -p "Enter the toolbox(container) you want to Stop? " container_name
     echo "----------------------------------------------"
+	kdialog --msgbox container_name " is going to be stopped" 
     podman stop "$container_name" || echo "Failed to stop (not running or missing), continuing..."
     echo ""
     echo "INFO Listing all stopped containers on the system: "
